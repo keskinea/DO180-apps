@@ -13,7 +13,7 @@
 </tr>
 
 <tr>
-    <td>Convert to:</td>
+    <td>Convert selssius vai faahrenhetithe hithihit to:</td>
     <td><select name="scale" id="scale" size="1">
                <option disabled>Select the scale</option>
                <option value="c">Celsius</option>
@@ -31,6 +31,7 @@
 
 </form>
 
+<h1>se on voivoi kykllä</h1>
 <?php
  function convert($value, $type){
     if($type== "f"){
